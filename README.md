@@ -12,8 +12,8 @@ RelaMiX encompasses a temporal relational attention network with relation dropou
 * install all the library with: `pip install -r requirements.txt`
 ## Dataset Preparation
 Please refer to the dataset_preparation folder to prepare the temporal features by using I3D method.
-The pretrained weights could be derived from [https://github.com/piergiaj/pytorch-i3d/tree/master/models]
-Please refer to this repo for the feature extraction, we follow the same way with theirs. [https://github.com/ldkong1205/TranSVAE]
+The pretrained weights could be derived from official pytorch I3D repo.
+Please refer to the TranSVAE repo for the feature extraction, we follow the same way with theirs.
 ### Data structure
 You need to extract frame-level features for each video to run the codes. To extract features, please check [`dataset_preparation/`](dataset_preparation/).
 
@@ -44,6 +44,6 @@ There should be at least two `DATASET` folders: source training set  and validat
 
 ### File lists for training/validation
 Please check the folder for EPIC_KITCHEN_FSDA_AR_protocols, hmdb_ucf_FSDA_AR_protocols, and Sims4TSH_FSDA_AR_protocols.
-we also provided the model weights in https://drive.google.com/drive/folders/1Fxj8ylY-eLE87sM1EVBo_a5Pb5OB2n7E?usp=drive_link and the features used in EPIC-KITCHEN, note that they are newly trained weights, which might have slight deviations due to the randomness of the library. In case your reproduced results from your own trained models are different we suggest you to run multiple times or different seeds.
+we also provided the model weights in https://drive.google.com/drive/folders/1Fxj8ylY-eLE87sM1EVBo_a5Pb5OB2n7E?usp=drive_link and the features used in EPIC-KITCHEN.
 
 
